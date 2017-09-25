@@ -12,3 +12,5 @@
 - [ ] Cambiar foto de 404.md por una de flor
 - [ ] Botones para la izq y derecha que linkeen al dia anterior y posterior, y un /archivo que tenga un listado de todo el archivo
 - [ ] Slide de fotos, que conserve al menos la tira del día anterior
+- [ ] Redireccionamiento relativo
+
