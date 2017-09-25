@@ -34,7 +34,8 @@ permalink: /about/
 
 <form action="https://formspree.io/florrr1997@gmail.com"
       method="POST">
-
+    <input type="hidden" name="_subject" value="Mafal-Día" />
+    <input type="hidden" name="_cc" value="FedericodelMazo@hotmail.com" />
     <label><span_form>Nombre</span_form>
     <input type="text" name="name"></label>
 
