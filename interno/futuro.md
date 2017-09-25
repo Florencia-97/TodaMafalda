@@ -3,6 +3,7 @@
 (no hablar de implementacion, solo de objetivos)
 
 - [ ] Extraer las fotos de los cbr, recortarlas para que sean una por historieta, comprimirlas para espacio, y dejar una carpeta para trabajar de n (30) fotos. Las otras, archivarlas
+- [ ] Suuuuper mobile friendly
 - [ ] Mejorar readme.md
 - [ ] Hacer about.md con info de como contactarnos
 - [ ] Hacer aboutmafalda.md, poner links a venta oficial de los tomos, fuentes de donde sale lo nuestro, pequeño texto de mafalda
