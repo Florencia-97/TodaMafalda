@@ -16,3 +16,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
+sitio: https://fdelmazo.github.io/
+sitiobase: Mafal-Dia
+
