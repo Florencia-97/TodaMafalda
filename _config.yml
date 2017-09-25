@@ -1,0 +1,18 @@
+theme: minima
+
+title: Mafal-Día
+description: >-
+  Mafal-Día! Una historieta de Mafalda, todos los días
+
+email1: federicodelmazo@hotmail.com
+email2: florrr1997@gmail.com
+
+githubsrc: https://github.com/FdelMazo/mafal-dia
+githubuser1: FdelMazo
+githubuser2: Florencia-97
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+

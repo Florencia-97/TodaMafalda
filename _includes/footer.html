@@ -1,0 +1,30 @@
+<footer class="site-footer">
+    <div class="wrapper">
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <ul class="contact-list">
+                    <li>
+                        <a href="{{site.githubsrc}}"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="source">{{ site.title }}</span></a>
+                        <p></p>
+                        {% include icon-github.html username=site.githubuser1 %}
+                        {% include icon-github.html username=site.githubuser2 %}
+                    </li>
+                    <p></p>
+                    <li><a href="mailto:{{ site.email1 }}">{{ site.email1 }}</a></li>
+                    <li><a href="mailto:{{ site.email2 }}">{{ site.email2 }}</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <ul class="social-media-list">
+                </ul>
+            </div>
+            <p><img src="assets/img/background.png" alt="" style="width: 100px;"/></p>
+            <div class="footer-col footer-col-3" align="right">
+            </div>
+        </div>
+
+    </div>
+
+</footer>

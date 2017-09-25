@@ -1,0 +1,41 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background: #FFC133;
+    width: 100%;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+naval ul{
+    background-color: azure;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover{
+    background-color: cornsilk;
+}
+
+section{
+    line-height: 1.5em;
+    font-size: 0.9em;
+    padding: 40px;
+    width: 75%;
+}
