@@ -6,20 +6,8 @@
 
 	<body style="background-color:lightcyan;">
 
-	<header>
-		<h1>
-			Mafal-Día
-		</h1>
-		<nav>
-			<ul>
-				<li><a href="{{site.baseurl}}/">Principal</a></li>
-				<li><a href="{{site.baseurl}}/referencias">Referencias</a></li>
-				<li><a href="{{site.baseurl}}/aboutmafalda">Acerca de Mafalda</a></li>
-				<li><a href="{{site.baseurl}}/about">Acerca de Nosotros</a></li>
-			</ul>
-		</nav>
-	</header>
-	
+	{% include header.html %}
+
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}

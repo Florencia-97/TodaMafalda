@@ -1,3 +1,3 @@
 # Mafal-dia
 
-Una historieta de Mafalda por Día
+Una historieta de Mafalda, todos los días
