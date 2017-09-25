@@ -2,7 +2,7 @@
 
 (no hablar de implementacion, solo de objetivos)
 
-- [ ] Extraer las fotos de los cbr, recortarlas para que sean una por historieta, comprimirlas para espacio, y dejar una carpeta para trabajar de n (30) fotos. Las otras, archivarlas
+- [ ] Extraer las fotos de los cbr, recortarlas para que sean una por historieta, comprimirlas para espacio, y dejar una carpeta para trabajar de n (~15 fotos. Las otras, archivarlas
 - [ ] Suuuuper mobile friendly
 - [ ] Mejorar readme.md
 - [ ] Hacer about.md con info de como contactarnos
@@ -14,4 +14,5 @@
 - [ ] Botones para la izq y derecha que linkeen al dia anterior y posterior, y un /archivo que tenga un listado de todo el archivo
 - [ ] Slide de fotos, que conserve al menos la tira del día anterior
 - [ ] Redireccionamiento relativo
-
+- [ ] bash script que pullee dev, randomice foto, pushee a master y cada n commits limpie el historial
+- [ ] hacer branch "dev" default, en lo que gh pages publica master
