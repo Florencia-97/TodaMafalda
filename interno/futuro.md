@@ -16,3 +16,7 @@
 - [ ] Redireccionamiento relativo
 - [ ] bash script que pullee dev, randomice foto, pushee a master y cada n commits limpie el historial
 - [ ] hacer branch "dev" default, en lo que gh pages publica master
+- [ ] Que florencia borre su fork :triumph:
+- [ ] Que florencia suba a git el imaginate challenge :triumph:
+- [ ] Agregar nuestras fotos de github de perfil en /about. Poner foto de mafalda escribiendo para mail. Aflojar el footer un poco
+
