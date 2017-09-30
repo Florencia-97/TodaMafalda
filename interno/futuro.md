@@ -19,4 +19,5 @@
 - [ ] Que florencia borre su fork :triumph:
 - [ ] Que florencia suba a git el imaginate challenge :triumph:
 - [ ] Agregar nuestras fotos de github de perfil en /about. Poner foto de mafalda escribiendo para mail. Aflojar el footer un poco
+- [ ] MafalDia bot en rpi con ssh para hacer bash git pul push script  -> Robar de corrector el script de python para pushear
 
