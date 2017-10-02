@@ -14,10 +14,11 @@
 - [ ] Botones para la izq y derecha que linkeen al dia anterior y posterior, y un /archivo que tenga un listado de todo el archivo
 - [ ] Slide de fotos, que conserve al menos la tira del día anterior
 - [ ] Redireccionamiento relativo
-- [ ] bash script que pullee dev, randomice foto, pushee a master y cada n commits limpie el historial
+- [ ] bash script que pullee dev, randomice foto, pushee a master
 - [ ] hacer branch "dev" default, en lo que gh pages publica master
 - [ ] Que florencia borre su fork :triumph:
 - [ ] Que florencia suba a git el imaginate challenge :triumph:
 - [ ] Agregar nuestras fotos de github de perfil en /about. Poner foto de mafalda escribiendo para mail. Aflojar el footer un poco
 - [ ] MafalDia bot en rpi con ssh para hacer bash git pul push script  -> Robar de corrector el script de python para pushear
-
+- [ ] Makefile para poder facilmente instalar todo lo necesario (make build) y correr localmente el sitio (make serve)
+- [ ] Dejar bien separado que branch es publicada y que branch es de dev
