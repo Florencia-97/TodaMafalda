@@ -1,0 +1,3 @@
+La carpeta "Especiales" contiene paneles lindos, sacados de Toda Mafalda, pero no facilmente croppeables. Se puede lanzar una vez a la semana (ej: domingos, como el formato de historieta tradicional) y ver de hacerlo mas a mano que automatico
+La carpeta "Tira a Tira" contiene de toda la seccion de Tira a Tira de Toda Mafalda las imagenes que son automaticamente croppeables a 5 historietas por imagen. 384 hojas * 5 historietas c/u == 1920 historietas. De quedarnos sin repositorio de imagenes, se pueden sacar de las otras secciones de "Toda Mafalda" (hay unas 200 hojas del libro salteadas por comodidad)
+La autocroppeabilidad se recomienda hacerla con BatchCrop.com
