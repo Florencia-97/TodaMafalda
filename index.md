@@ -2,4 +2,4 @@
 layout: home
 ---
 
-![](./assets/img/placeholder.png)
+![](./assets/img/placeholder.png){:height="250px"}

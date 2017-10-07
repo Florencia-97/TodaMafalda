@@ -46,7 +46,3 @@ permalink: /about/
     <input type="submit" value="Enviar">
 
 </form>
-
-
-
-
