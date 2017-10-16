@@ -22,3 +22,4 @@
 - [ ] MafalDia bot en rpi con ssh para hacer bash git pul push script  -> Robar de corrector el script de python para pushear
 - [ ] Makefile para poder facilmente instalar todo lo necesario (make build) y correr localmente el sitio (make serve)
 - [ ] Dejar bien separado que branch es publicada y que branch es de dev
+- [ ] Seccion (aparte y beta) de parallax horizontal para ir "revelando" los paneles de la historieta uno por uno
