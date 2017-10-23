@@ -24,3 +24,5 @@
 - [ ] Dejar bien separado que branch es publicada y que branch es de dev
 - [ ] Seccion (aparte y beta) de parallax horizontal para ir "revelando" los paneles de la historieta uno por uno
 - [ ] Giffffffssssssss
+- [ ] If esta en celular en portrait recomendar landscape
+- [ ] Make serve lo hace en mobile
