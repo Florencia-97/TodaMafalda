@@ -26,3 +26,5 @@
 - [ ] Giffffffssssssss
 - [ ] If esta en celular en portrait recomendar landscape
 - [ ] Make serve lo hace en mobile
+- [ ] http://mattallan.org/2016/github-pages-best-practices/
+- [ ] https://stackoverflow.com/questions/4151495/should-gemfile-lock-be-included-in-gitignore/4151540#4151540
