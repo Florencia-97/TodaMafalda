@@ -4,7 +4,7 @@ title: Mafal-Día
 description: >-
   Mafal-Día! Una historieta de Mafalda, todos los días
 
-github: [metadata]
+repository: fdelmazo/mafal-dia
 email1: federicodelmazo@hotmail.com
 email2: florrr1997@gmail.com
 
@@ -13,7 +13,7 @@ githubuser2: Florencia-97
 
 markdown: kramdown
 plugins:
+  - jekyll-github-metadata
   - jekyll-feed
 
-sitio: https://fdelmazo.github.io/
-sitiobase: Mafal-Dia
+baseurl: https://fdelmazo.github.io/Mafal-Dia

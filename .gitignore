@@ -3,4 +3,4 @@
 Gemfile.lock
 .idea/
 _site/
-*Thumbs.db
+.bundle
