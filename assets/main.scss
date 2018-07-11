@@ -4,11 +4,21 @@
 
 @import "minima";
 
+h3{
+    color: grey;
+}
+
+ul, ol {
+    margin-left: 0px;
+}
+
+
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
 header{
     background: #FFC133;
     width: 100%;

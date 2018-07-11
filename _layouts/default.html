@@ -2,10 +2,10 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
+  {% include slider_styles.html %}
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon">
 
-
-	<body style="background-color:lightcyan;">
+	<body style="background-color:{{site.backgroundcolor}};">
 
 	{% include header.html %}
 

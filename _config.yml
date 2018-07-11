@@ -1,6 +1,6 @@
 theme: minima
 
-title: Mafalda
+title: Toda Mafalda
 description: Tira a Tira
 
 email1: federicodelmazo@hotmail.com
@@ -8,6 +8,8 @@ email2: florrr1997@gmail.com
 
 githubuser1: FdelMazo
 githubuser2: Florencia-97
+
+backgroundcolor: lightcyan
 
 markdown: kramdown
 plugins:

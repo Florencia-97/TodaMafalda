@@ -15,7 +15,7 @@
 .iis-previous-nav,
 .iis-next-nav {
 	position: absolute;
-	top: 50%;
+	top: 80%;
 	z-index: 20;
 	display: block;
 	width: 60px;

@@ -1,27 +1,12 @@
-<style>
-    .stick-to-right {
-        width: 300px;
-        float: right;
-    }
-</style>
-
 <footer class="site-footer">
-    <div class="wrapper">
-        <div class="footer-col-wrapper">
-            <div class="footer-col footer-col-1">
-                <ul class="contact-list">
-                    <li>
-                        {% include icon-github.html username=site.githubuser1 %}
-                        {% include icon-github.html username=site.githubuser2 %}
-                    </li>
-                    <p></p>
-                    <li><a href="/contact">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="stick-to-right">
-                <p><img src="/assets/img/background.png" alt="" style="width: 100px;"/></p>
-            </div>
-        </div>
+    <div class="wrapper wrap">
+        <img src="/assets/img/background.png" style="float: right; width: 100px;"/>
+        <ul class="contact-list">
+            <li>
+                {% include icon-github.html username=site.githubuser1 %}
+                {% include icon-github.html username=site.githubuser2 %}
+            </li>
+            <li><a href="/contact">Contacto</a></li>
+        </ul>
     </div>
 </footer>
-
