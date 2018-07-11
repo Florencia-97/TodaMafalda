@@ -12,6 +12,19 @@ ul, ol {
     margin-left: 0px;
 }
 
+.archivo {
+    list-style: none;
+}
+
+.archivo li {
+    float:left;
+}
+
+.archivo li a {
+    display: block;
+    padding: 8px;
+}
+
 
 body{
     margin: 0;

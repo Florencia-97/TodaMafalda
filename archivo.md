@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<ul style="columns:15;">
+<ul class="archivo">
 {% for image in site.static_files %}
 {% if image.path contains 'historietas' %}
-  <a href="{{image.path}}">{{image.basename}}</a>
+  <li><a href="{{site.baseurl}}/{{image.path}}">{{image.basename}}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
