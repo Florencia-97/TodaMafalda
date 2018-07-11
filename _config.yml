@@ -1,6 +1,7 @@
 theme: minima
 
 title: Mafalda Tira a Tira
+description: Una historieta de Mafalda, todos los días
 
 email1: federicodelmazo@hotmail.com
 email2: florrr1997@gmail.com
@@ -11,4 +12,3 @@ githubuser2: Florencia-97
 markdown: kramdown
 plugins:
   - jekyll-github-metadata
-  - jekyll-feed
