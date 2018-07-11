@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: contacto
+permalink: /contact/
 ---
 <style type="text/css" media="screen">
  input, textarea{
@@ -34,8 +34,8 @@ permalink: /about/
 
 <form action="https://formspree.io/florrr1997@gmail.com"
       method="POST">
-    <input type="hidden" name="_subject" value="Mafal-Día" />
-    <input type="hidden" name="_cc" value="FedericodelMazo@hotmail.com" />
+    <input type="hidden" name="_subject" value="{{site.title}}" />
+    <input type="hidden" name="_cc" value="{{site.email1}}" />
     <label><span_form>Nombre</span_form>
     <input type="text" name="name"></label>
 

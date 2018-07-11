@@ -1,10 +1,7 @@
 theme: minima
 
-title: Mafal-Día
-description: >-
-  Mafal-Día! Una historieta de Mafalda, todos los días
+title: Mafalda Tira a Tira
 
-repository: fdelmazo/mafal-dia
 email1: federicodelmazo@hotmail.com
 email2: florrr1997@gmail.com
 
@@ -15,5 +12,3 @@ markdown: kramdown
 plugins:
   - jekyll-github-metadata
   - jekyll-feed
-
-baseurl: https://fdelmazo.github.io/Mafal-Dia

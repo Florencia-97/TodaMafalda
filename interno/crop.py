@@ -1,10 +1,12 @@
+"""Parte una imagen en DIVS imagenes, despues elimina la imagen"""
+
 from PIL import Image,ImageChops
 import os
 
 DIVS = 5
 
 files = os.listdir()
-files.remove('crop.py')
+files.remove(__file__)
 for f in files:
     im = Image.open(f)
     basename,ext = f.split('.')
