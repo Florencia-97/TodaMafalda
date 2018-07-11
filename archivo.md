@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: default
 ---
+
 {% for image in site.static_files %}
 {% if image.path contains 'historietas' %}
-<img src="{{ image.path }}" alt="">
+  <a href="{{image.path}}">{{image.basename}}</a>
 {% endif %}
 {% endfor %}
