@@ -1,16 +1,12 @@
 <footer class="site-footer">
     <div class="wrapper wrap">
-        <img src="{{site.baseurl}}/assets/img/background.png" style="float: right; width: 100px;"/>
+        <a href="{{site.github.repository_url}}">
+            <img src="{{site.baseurl}}/assets/img/background.png" style="float: right; width: 100px;"/>
+        </a>
         <ul class="contact-list" style="padding-top:50px;">
-            <li>
-                {% include icon-github.html username=site.githubuser1 %}
-            </li>
-
-            <li>
-
-            {% include icon-github.html username=site.githubuser2 %}
-            </li>
-            <li><a href="/contact">Contacto</a></li>
+            <li>{% include icon-github.html username=site.githubuser1 %}</li>
+            <li>{% include icon-github.html username=site.githubuser2 %}</li>
+            <li><a href="{{site.baseurl}}/contact">Contacto</a></li>
         </ul>
     </div>
 </footer>
