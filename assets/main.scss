@@ -10,6 +10,16 @@
     width: 60vw;
 }
 
+#footer-foto-mafalda {
+    float: right; width: 100px;
+}
+
+#quino {
+    float: right;
+    margin-top: 55px;
+    width: 100px;
+}
+
 .wrapper {
     max-width: -webkit-calc(80vw - (30px * 2));
     max-width: calc(80vw - (30px * 2));
@@ -40,10 +50,13 @@
         height: auto;
     }
     footer .wrapper {
-        max-width: 100vw;
+        max-width: 90vw;
     }
     .contact-list {
         visibility: hidden;
+    }
+    #quino {
+        float: left;
     }
 }
 
@@ -51,7 +64,7 @@ footer {
     border-top:1px solid #e8e8e8; padding: 30px 0 0 0;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1550px) {
     footer {
         border-top:0px;
     }
@@ -119,3 +132,4 @@ section{
     padding: 40px;
     width: 75%;
 }
+
