@@ -1,6 +1,22 @@
 <!-- Jekyll Ideal Image Slider Include -->
 <!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
 <!-- v1.8 -->
+<style>
+.button {
+    background-color: #FFC133;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 45%
+}
+</style>
+
 {%- if include.selector != empty -%}
   {%- assign slider = site.data.sliders | where:"selector",include.selector | first -%}
   <div id="{{ slider.selector }}">
@@ -8,4 +24,5 @@
     {% if image.href -%}<a href="{{ image.href }}">{%- endif -%}<img data-src="{{ image.data-src | relative_url }}" data-src-2x="{{ image.data-src-2x | relative_url }}" src="{{ image.src | relative_url }}" title="{{ image.title }}" alt="{{ image.alt }}">{%- if image.href -%}</a>{% endif %}
   {% endfor -%}
   </div>
+  <button class="button" onclick="random()">Random</button>
 {%- endif -%}
