@@ -2,7 +2,7 @@
   images:
   - src: /historietas/0001.png
     title: "0001"
-    - data-src: /historietas/0002.png
+  - data-src: /historietas/0002.png
     title: "0002"
   - data-src: /historietas/0003.png
     title: "0003"
