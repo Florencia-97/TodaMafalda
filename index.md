@@ -5,3 +5,7 @@ image_sliders:
 ---
 
 {% include slider.html selector="historietas" %}
+
+<div class='container-centrado' onclick="random()">
+<button>Random</button>
+</div>

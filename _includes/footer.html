@@ -1,15 +1,19 @@
 <footer>
-    <div class="wrapper wrap">
-        <a href="{{site.github.repository_url}}">
-            <img id=footer-foto-mafalda src="{{site.baseurl}}/assets/img/background.png"/>
-        </a>
-        <a href="http://www.quino.com.ar/">
-            <img id="quino" src="{{site.baseurl}}/assets/img/quino.png">
-        </a>
-        <ul class="contact-list" style="padding-top:55px;">
-            <li>{% include icon-github.html username=site.githubuser1 %}</li>
-            <li>{% include icon-github.html username=site.githubuser2 %}</li>
-            <li><a href="{{site.baseurl}}/contact">Contacto</a></li>
-        </ul>
+    <div class="container-espaciado">
+        <div>
+            <ul class="contact-list">
+                <li>{% include icon-github.html username=site.githubuser1 %}</li>
+                <li>{% include icon-github.html username=site.githubuser2 %}</li>
+                <li><a href="{{site.baseurl}}/contact">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="{{site.github.repository_url}}">
+                <img style="width:100px" src="{{site.baseurl}}/assets/img/background.png"/>
+            </a>
+            <a href="http://www.quino.com.ar/">
+                <img style="width:100px" src="{{site.baseurl}}/assets/img/quino.png">
+            </a>
+        </div>
     </div>
 </footer>

@@ -4,81 +4,66 @@
 
 @import "minima";
 
+body {
+    background-color:lightcyan;
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align:center;
+}
+
+h3{
+    color: grey;
+}
+
+header {
+    background: #FFC133;
+    color: azure;
+}
+
 #historietas {
     height: auto;
     margin: auto;
     width: 60vw;
 }
 
-#footer-foto-mafalda {
-    float: right; width: 100px;
+.container-centrado {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-#quino {
-    float: right;
-    margin-top: 55px;
-    width: 100px;
+.container-espaciado {
+    padding: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.wrapper {
-    max-width: -webkit-calc(80vw - (30px * 2));
-    max-width: calc(80vw - (30px * 2));
-    margin-right: auto; margin-left: auto;
-    padding-right: 30px; padding-left: 30px;
-    height: auto;
-}
-
-.page-content {
-    max-width: -webkit-calc(80vw - (30px * 2));
-    max-width: calc(80vw - (30px * 2));
-    margin-right: auto; margin-left: auto;
-    padding-right: 30px; padding-left: 30px;
-    height: auto;
-}
-
-@media screen and (max-width: 800px) {
-    .wrapper {
-        max-width: -webkit-calc(60vw - (30px));
-        max-width: calc(60vw - (30px));
-        padding-right: 15px; padding-left: 15px;
-        height: auto;
-    }
-    .page-content {
-        max-width: -webkit-calc(60vw - (30px));
-        max-width: calc(60vw - (30px));
-        padding-right: 15px; padding-left: 15px;
-        height: auto;
-    }
-    footer .wrapper {
-        max-width: 90vw;
-    }
-    .contact-list {
-        visibility: hidden;
-    }
-    #quino {
-        float: left;
-    }
-}
-
-
-@media screen and (min-width: 1550px) {
-    footer {
-        border-top:0px;
-    }
-}
-
-
-
-h3{
-    color: grey;
-}
-
-ul, ol {
+.container-centrado ul, ol {
     margin-left: 0px;
+    list-style-type: none;
 }
 
-.archivo {
-    list-style: none;
+.boton {
+    background-color: azure;
+    overflow: hidden;
+    padding: 1em;
+    margin: 1em;
+}
+
+.boton:hover{
+    background-color: azure;
+}
+
+button {
+    background-color: #FFC133;
+    border: none;
+    color: azure;
+    padding: 15px 32px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .archivo li {
@@ -89,44 +74,4 @@ ul, ol {
     display: block;
     padding: 8px;
     width: 32px;
-
 }
-
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-header{
-    background: #FFC133;
-    width: 100%;
-    padding: 10px 0;
-    color: white;
-    text-align: center;
-}
-naval ul{
-    background-color: azure;
-    overflow: hidden;
-    color: white;
-    padding: 0;
-    text-align: center;
-    margin: 0;
-}
-nav ul li{
-    display: inline-block;
-    padding: 20px;
-}
-
-nav ul li:hover{
-    background-color: cornsilk;
-}
-
-section{
-    line-height: 1.5em;
-    font-size: 0.9em;
-    padding: 40px;
-    width: 75%;
-}
-

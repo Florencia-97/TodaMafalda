@@ -5,14 +5,15 @@
   {% include slider_styles.html %}
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon">
   <script type="text/javascript" src="{{ '/assets/js/random.js' | relative_url }}"></script>
-	<body style="background-color:{{site.backgroundcolor}};">
+	<body>
 
 	{% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <main class="container-centrado" aria-label="Content">
+      <div class="container-centrado">
         {{ content }}
       </div>
+
     </main>
 
     {% include footer.html %}
